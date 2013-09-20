@@ -1,11 +1,11 @@
 <?php
 
-declare('EMAILING_TEMPLATE', 'assets/email/your-email-template.html');
-declare('EMAILING_RECIPIENT', 'test@domain.topdomain');
-declare('EMAILING_SENDER', 'noreply@domain.topcomain');
-declare('EMAILING_SUBJECT', 'Quick e-mailing');
-declare('EMAILING_SUCCESS_URL', 'email_success.php');
-declare('EMAILING_FAILURE_URL', 'email_failure.php');
+define('EMAILING_TEMPLATE', 'assets/email/your-email-template.html');
+define('EMAILING_RECIPIENT', 'test@domain.topdomain');
+define('EMAILING_SENDER', 'noreply@domain.topcomain');
+define('EMAILING_SUBJECT', 'Quick e-mailing');
+define('EMAILING_SUCCESS_URL', 'email_success.php');
+define('EMAILING_FAILURE_URL', 'email_failure.php');
     
 require_once 'classes/class.EmailTemplate.php';
 require_once 'classes/class.Dispatcher.php';
